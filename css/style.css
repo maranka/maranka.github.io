@@ -1,0 +1,547 @@
+/* CSS Document */
+body
+{
+
+
+font-family: 'Scada', sans-serif;
+font-size:14px;
+color:#330000;
+text-decoration:none;
+outline:none;
+
+margin:auto;
+padding:0px;
+width:800px;
+align:center;
+
+}
+
+a:link {text-decoration:none; outline:none;}
+
+a:visited {text-decoration:none; outline:none;}
+
+a:hover {text-decoration:none; outline:none;}
+
+
+.outertable
+{
+width:1000px;
+margin-left:auto;
+margin-right:auto;
+}
+.innertable
+{
+width:939px;
+margin-left:auto;
+margin-right:auto;
+}
+
+
+
+
+.blue-bg-left  /* заголовок, полоска цвета */
+{
+background-color:#330000;
+height:30px;
+font-family: 'Scada', sans-serif;
+font-size:14px;
+color:#fff;
+text-decoration:none;
+font-weight:bold; outline:none;
+
+line-height: 28px;
+padding-left:10px;
+}
+
+
+.blue-bg-right  /* заголовок, полоска цвета */
+{
+background-color:#330000;
+height:30px;
+font-family: 'Scada', sans-serif;
+font-size:14px;
+color:#fff;
+text-decoration:none;
+outline:none;
+
+line-height: 28px;
+padding-left:10px;
+float:right;
+display:block;
+width: 50%;
+}
+
+.blue-bg  /* заголовок, полоска цвета */
+{
+background-color:#330000;
+height:30px;
+font-family: 'Scada', sans-serif;
+font-size:14px;
+color:#fff;
+text-decoration:none;
+font-weight:bold; outline:none;
+
+line-height: 28px;
+padding-left:10px;
+}
+.grey-bg   /* выравнивание по центру картинок */
+{
+background-color:#fff;
+text-align:center;
+
+}
+.news-bg
+{
+background-color:#fff;
+background-repeat:no-repeat;
+
+}
+.kitchen-bg    /*заголовки категории*/
+{
+background-color:#fff;
+background-repeat:no-repeat;
+height:30px;
+font-family: 'Scada', sans-serif;
+font-size:14px;
+color:#330000;
+text-decoration:none;
+font-weight:bold; outline:none;
+line-height: 28px;
+text-align:center;
+}
+
+.products    /*заголовки категории*/
+{
+background-color:#fff;
+background-repeat:no-repeat;
+height:30px;
+font-family: 'Scada', sans-serif;
+font-size:14px;
+color:#330000;
+text-decoration:none;
+font-weight:bold; outline:none;
+
+line-height: 28px;
+text-align:center;
+}
+
+.heading1    /*заголовки*/
+{
+font-family: 'Scada', sans-serif;
+font-size:16px;
+color:#330000;
+text-decoration:none;
+font-weight:bold; outline:none;
+
+}
+
+
+.text1
+{
+font-family: 'Scada', sans-serif;
+font-size:14px;
+color:#000;
+text-decoration:none; outline:none;
+}
+
+.text2
+{
+font-family: 'Scada', sans-serif;
+font-size:15px;
+color:#000;
+text-decoration:none; outline:none;
+line-height: 1.5;
+}
+
+
+.link1   /*для заголовков*/
+{
+font-family: 'Scada', sans-serif;
+font-size:15px;
+color:#330000;
+text-decoration:none;
+ outline:none;
+}
+.link1 a:link
+{
+font-family: 'Scada', sans-serif;
+font-size:15px;
+color:#330000;
+text-decoration:none;
+ outline:none;
+}
+.link1 a:hover
+{
+font-family: 'Scada', sans-serif;
+font-size:15px;
+color:#330000;
+text-decoration:underline;
+ outline:none;
+}
+
+
+.link2   /*для обычного текста*/
+{
+font-family: 'Scada', sans-serif;
+font-size:14px;
+color:#330000;
+text-decoration:none;
+line-height:18px; outline:none;
+
+}
+.link2 a:link
+{
+font-family: 'Scada', sans-serif;
+font-size:14px;
+color:#330000;
+text-decoration:none;
+line-height:18px; outline:none;
+
+}
+.link2 a:hover
+{
+font-family: 'Scada', sans-serif;
+font-size:14px;
+color:#330000;
+text-decoration:underline;
+ outline:none;
+}
+
+
+
+.link3   /*для обычного текста*/
+{
+font-family: 'Scada', sans-serif;
+font-size:14px;
+color:#fff;
+text-decoration:none;
+line-height:18px; outline:none;
+
+}
+.link3 a:link
+{
+font-family: 'Scada', sans-serif;
+font-size:14px;
+color:#fff;
+text-decoration:none;
+line-height:18px; outline:none;
+
+}
+.link3 a:hover
+{
+font-family: 'Scada', sans-serif;
+font-size:14px;
+color:#fff;
+text-decoration:underline;
+ outline:none;
+}
+
+
+
+.text-box1
+{
+width:90px;
+height:20px;
+border:1px solid #CCCCCC;
+}
+
+
+.footer-bg
+{
+background-image:url(../images/footer-bg.jpg);
+background-repeat:repeat-x;
+height:99px;
+text-align:center;
+}
+
+.center{text-align:center; }
+
+
+
+.left{float:left; width:395px; display:table;}
+
+.right{float:right; width:395px; display:table;}
+
+
+.left1{float:left; width:195px; display:table;}
+
+.right1{float:right; width:195px; display:table;}
+
+
+
+.left2{float:left; width:450px; display:table; margin-right:10px; }
+
+.right2{float:right; width:340px; display:table; }
+
+
+.left3{float:left; width:170px; display:table; padding:0 0 0 3;}
+
+
+
+.left4{float:left; width:200px; display:table;}
+
+.right4{float:right; width:680px; display:table;}
+
+
+
+
+.metro {
+  list-style: none;
+  padding: 0;
+  margin: 30px 0 0 50px;
+  border-left: 5px solid #DAE4F1;
+}
+.metro li {line-height: 2em;}
+.metro ul {
+  margin: 20px 0 20px 15px;
+  padding: 0;
+  border: none;
+  list-style: none;
+}
+.metro ul:before, .metro ul:after {
+  content: "";
+  width: 5px;
+  height: 28px;
+  background: #DAE4F1;
+  position: relative;
+  display: block;
+  left: -9px;
+}
+.metro ul:before {
+  transform: rotate(-45deg);
+  margin-top: -15px;
+}
+.metro ul:after {
+  transform: rotate(45deg);
+  bottom: -20px;
+}
+.metro ul li {border-left: 5px solid #DAE4F1;}
+.metro ul li:first-child {
+  margin-top: -5px;
+  padding-top: 5px;
+}
+.metro ul li:last-child {
+  padding-bottom: 9px;
+  margin-bottom: -25px;
+}
+.metro a {
+  text-decoration: none;
+  display: block;
+  font-family: 'Noto Sans', sans-serif;
+  color: #4A4B4D;
+}
+.metro a:before {
+  content: "";
+  display: inline-block;
+  background: #CA682D;
+  width: 12px;
+  height: 12px;
+  left: -9px;
+  position: relative;
+  border-radius: 50%;
+  margin-right: .5em;
+}
+
+
+
+/*--------------------галерея------------------------*/
+
+
+#page { width: 300px; 
+margin: 30px; }
+
+
+
+
+#thumbs { padding-top: 5px; 
+overflow: hidden; }
+
+
+
+
+#thumbs img
+{ border: 1px solid gray; 
+padding: 2px; 
+background-color: white; 
+cursor: pointer; }
+
+
+
+#largeImage { border: 1px solid gray; 
+padding: 4px; 
+background-color: white; 
+cursor: pointer; 
+width:300px;
+height:350px;}
+
+
+
+#thumbs img { float: left; 
+margin-right: 6px; }
+
+
+
+
+#description { background: black;
+color: white; 
+position: absolute; 
+bottom: 0; 
+padding: 10px 20px; 
+width: 290px; 
+margin: 5px; }
+
+
+#panel { position: relative; }
+
+
+#mini_img {float:center;width:54px;height:60px;}
+
+
+
+
+
+
+
+
+/*----------------МЕНЮ-------------------*/
+
+.four nav {
+  width: 660px;
+  margin: 0 auto 30px;
+
+
+}
+.four ul {
+  list-style: none; 
+  margin: 0;
+  padding: 0;
+}
+.topmenu > li {
+  display: inline-block;
+  margin-right: 20px;
+  position: relative;
+  
+}
+.topmenu > li:last-child {
+  margin-right: 0;
+
+}
+.four a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  outline: none;
+  font-family: 'Scada', sans-serif;
+  transition: .5s linear;
+
+}
+.fa {
+  font-family: 'Scada', sans-serif;
+  color: inherit;
+  padding-left: 10px;
+
+}
+.submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 200px;
+  z-index: 10;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+
+}
+.four ul {
+  background: #330000;
+text-align:  center;
+}
+.four .submenu {
+  -webkit-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    transform: scaleY(0);
+  -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+  background: #330000;
+text-align:left;
+}
+.four ul li:hover .submenu {
+  -webkit-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    transform: scaleY(1);
+}
+.four ul a {
+  color: #fff;
+font-family: 'Scada', sans-serif;
+}
+
+
+ /*----------------кнопка----------------------*/
+
+
+
+
+.button{
+
+
+text-decoration:none; 
+text-align:center; 
+ padding:11px 32px; 
+ border:solid 1px #000000; 
+ -webkit-border-radius:4px;
+ -moz-border-radius:4px; 
+ border-radius: 4px; 
+ font:14px Arial, Helvetica, sans-serif; 
+ font-weight:bold; 
+ color:#ffffff; 
+ background-color:#8a0505; 
+ background-image: -moz-linear-gradient(top, #8a0505 0%, #330000 100%); 
+ background-image: -webkit-linear-gradient(top, #8a0505 0%, #330000 100%); 
+ background-image: -o-linear-gradient(top, #8a0505 0%, #330000 100%); 
+ background-image: -ms-linear-gradient(top, #8a0505 0% ,#330000 100%); 
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#330000', endColorstr='#330000',GradientType=0 ); 
+ background-image: linear-gradient(top, #8a0505 0% ,#330000 100%);   
+ -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+ -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
+ box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
+  
+ text-shadow: 0px 0px 7px #330000; 
+ filter: dropshadow(color=#330000, offx=0, offy=0); }.button:hover{
+ padding:11px 32px; 
+ border:solid 1px #000000; 
+ -webkit-border-radius:4px;
+ -moz-border-radius:4px; 
+ border-radius: 4px; 
+ font:14px Arial, Helvetica, sans-serif; 
+ font-weight:bold; 
+ color:#ffffff; 
+ background-color:#0000; 
+ background-image: -moz-linear-gradient(top, #330000 0%, #8a0505 100%); 
+ background-image: -webkit-linear-gradient(top, #330000 0%, #8a0505 100%); 
+ background-image: -o-linear-gradient(top, #330000 0%, #8a0505 100%); 
+ background-image: -ms-linear-gradient(top, #330000 0% ,#8a0505 100%); 
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a0505', endColorstr='#8a0505',GradientType=0 ); 
+ background-image: linear-gradient(top, #330000 0% ,#8a0505 100%);   
+ -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+ -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
+ box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
+  
+ text-shadow: 0px 0px 7px #330000; 
+ filter: dropshadow(color=#330000, offx=0, offy=0);}.button:active{
+ padding:11px 32px; 
+ border:solid 1px #000000; 
+ -webkit-border-radius:4px;
+ -moz-border-radius:4px; 
+ border-radius: 4px; 
+ font:14px Arial, Helvetica, sans-serif; 
+ font-weight:bold; 
+ color:#ffffff; 
+ background:#330000; 
+ -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+ -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
+ box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
+  
+ text-shadow: 0px 0px 7px #330000; 
+ filter: dropshadow(color=#330000, offx=0, offy=0);}

@@ -1,0 +1,203 @@
+<!DOCTYPE>
+	<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+	<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+	<!--[if IE 8]><html class="no-js lt-ie9"><![endif]-->
+	<!--[if gt IE 8]><!--><html class="no-js"><!--<![endif]-->
+<html>
+
+<head>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
+        	<meta name="keywords" content="carousel, jquery, responsive, fluid, elastic, resize, thumbnail, slider" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico"> 
+        	<link rel="stylesheet" type="text/css" href="../../../css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="../../../css/elastislide.css" />
+		<link rel="stylesheet" type="text/css" href="../../../css/custom.css" />
+		<link href="https://fonts.googleapis.com/css?family=Scada" rel="stylesheet">
+		<script src="../../../js/modernizr.custom.17475.js"></script>
+
+<link rel="SHORTCUT ICON" href="favicon.ico" type="image/x-icon" />
+
+
+<meta name="description" content="Image gallery with description in 4 lines of jQuery code" />
+
+<meta name="keywords" content="jquery tutorial,image gallery, jquery delegate" />
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
+<link rel="stylesheet" href="../../../styles.css" type="text/css" />
+
+
+<title>Главная | АлтайГранит</title>
+
+<link href="../../../css/style.css" rel="stylesheet" type="text/css" />
+
+
+
+
+
+</head>
+
+
+
+<body>
+
+
+
+
+
+          	<div>
+
+		<img src="../../../images/all/logo1.jpg" />
+		
+		
+		</div>
+
+
+
+                      
+
+
+
+
+<div>    
+
+<nav class="four">
+  <h2></h2>
+  <ul class="topmenu">
+    <li><a href="../../../index.html">Главная страница</a></li>
+    <li><a href="../../../aboutus.html">О Нас</a></li>
+    <li><a href="../../../products.html">Продукция<i class="fa fa-angle-down"></i></a>
+      <ul class="submenu">
+        <li><a href="../../../gallery/pam/pamyatniki.html">Памятники</a></li>
+        <li><a href="../../../gallery/plitka/plitka.html">Плитка</a></li>
+	<li><a href="../../../gallery/nadgr_pliti/nadgr_pliti.html">Надгробные плиты</a></li>
+	<li><a href="../../../gallery/ogradi/ogradi.html">Оградки</a></li>
+	<li><a href="../../../gallery/stoli_skam/stoli_skam.html">Столы и скамейки</a></li>
+	<li><a href="../../../gallery/vasi/vasi.html">Вазы и полувазы</a></li>
+	<li><a href="../../../gallery/mram/izd_iz_mramora.html">Изделия из литьевого мрамора</a></li>
+	<li><a href="../../../gallery/instrumenti/instrumenti.html">Инструменты для камнеобработки</a></li>
+      </ul>
+    </li>
+    <li><a href="../../../uslugi.html">Услуги</a></li>
+    <li><a href="../../../contacts.html">Контакты</a></li>
+  </ul>
+</nav>
+
+</div>
+
+     
+<div style="width:100%;overflow:hidden;padding-top: 15px;">
+
+<div style="width:49%; float:left; padding-top: 3px;">
+
+<div id="page">
+
+
+
+<div id="gallery">
+	
+<div id="panel">
+		
+<img id="largeImage" src="../../../images/prod\pam\kit\sem\black_k06/017.jpeg" />
+		
+<div id="description">Черный габбро К06</div>
+	
+</div>
+
+	
+
+
+<div id="thumbs">
+
+<img id="mini_img" src="../../../images/prod\pam\kit\sem\black_k06/017.jpeg" alt="Черный габбро К06" />
+        
+<img id="mini_img" src="../../../images/prod\pam\kit\sem\green_k02/001.jpeg" alt="Зеленый габбро К02" />
+        
+<img id="mini_img" src="../../../images/prod\pam\kit\sem\blue_k10/001.jpeg" alt="Голубой гранит К10" />
+        
+<img id="mini_img" src="../../../images/prod\pam\kit\sem\kor_k11/001.jpeg" alt="Коричневый гранит К11" />
+        
+<img id="mini_img" src="../../../images/prod\pam\kit\sem\red_k05/003.jpeg" alt="Красный гранит К05" />
+	
+</div>
+</div>
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+<script>
+
+$('#thumbs').delegate('img','click', function(){
+	
+$('#largeImage').attr('src',$(this).attr('src').replace('thumb','large'));
+	
+$('#description').html($(this).attr('alt'));
+});
+
+</script>
+
+
+<div style="width:49%; float:right; padding-top: 3px;">
+<table Style="width:390px; line-height: 2; margin-top:35px;">
+
+<tr><td>№ Модели<hr/></td><td style="text-align:right;">001<hr/></td></tr>
+
+<tr><td>Высота (мм)<hr/></td><td style="text-align:right;">900<hr/></td></tr>
+
+<tr><td>Ширина (мм)<hr/></td><td style="text-align:right;">1000<hr/></td></tr>
+
+<tr><td>Толщина (мм)<hr/></td><td style="text-align:right;">70<hr/></td></tr>
+
+<tr><td>Масса (кг)<hr/></td><td style="text-align:right;">369.71<hr/></td></tr>
+
+<tr><td>Цена (руб)<hr/></td><td style="text-align:right;">...<hr/></td></tr>
+
+</table>
+
+<p style="height:40px; text-align:right; margin-top:20px;"><a href="../../../form.html" class="button"/>Заказать</a></p>
+</div>
+
+</div>
+
+
+      
+
+        <div class="footer-bg">
+
+         
+
+            
+
+
+			<a href="../../../index.html" class="link2">Главная страница</a> &nbsp;| &nbsp; 
+
+			<a href="../../../aboutus.html" class="link2">О Нас</a> &nbsp;| &nbsp; 
+
+			<a href="../../../products.html" class="link2">Продукция</a> &nbsp;| &nbsp; 
+
+			<a href="../../../uslugi.html" class="link2">Услуги</a> &nbsp;| &nbsp; 
+
+			<a href="../../../contacts.html" class="link2">Контакты</a></div>
+
+
+			  
+</div>
+
+</body>
+
+</html>

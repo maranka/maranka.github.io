@@ -1,0 +1,106 @@
+<!DOCTYPE HTML> 
+<html> 
+<head> 
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" /> 
+
+
+<style>
+.box {display: none;}
+</style> 
+
+
+<script>
+var currBox = 0;
+function Selected(a) {
+    if(a) {
+        document.getElementById("Block"+a).style.display = "block";
+        if(currBox) document.getElementById("Block"+currBox).style.display = "none"; 
+        currBox = a; 
+    } else alert("Not selected");
+}
+</script>
+    
+</head> 
+
+
+
+<body>
+
+<div>Выберите тип продукции:</div><br/>
+<select id="actSelect" class="Validate_Required " name="actSelect" onchange="Selected(this.value)">
+	<option value="1">Памятники</option>
+	<option value="2">Плитка</option>
+	<option value="3">Инструменты</option>
+	<option value="4">Вазы и полувазы</option>
+	<option value="5">Столы и скамейки</option>
+	<option value="6">Надгробные плиты</option>
+	<option value="7">Оградки</option>
+	<option value="8">Изделия из мрамора</option>
+</select>
+      
+     
+    <div id="Block1" class="box"><br/>
+      Выберите документ:
+            <select>
+                   <option value="" selected="selected">-</option>
+                   <option value="a">Акт</option>
+                   <option value="b">Накладная</option>
+                   <option value="c">Счет-фактура</option>
+            </select>
+    </div>
+     
+    <div id="Block2" class="box"><br/>
+        Предмет договора:
+            <select>
+                   <option value="" selected="selected">-</option>
+                   <option value="a">Выполнение работ</option>
+                   <option value="b">Оказание услуг</option>
+                   <option value="c">Поставка</option>
+            </select>
+    </div>
+     
+    <div id="Block3" class="box"><br/>
+      Предмет соглашения:
+            <select>
+                    <option value="" selected="selected">-</option>
+                    <option value="a">Изменение цены</option>
+                    <option value="b">Изменение сроков</option>
+                    <option value="b">Изменение объемов</option>
+            </select>
+    </div>
+     
+    <div id="Block4" class="box"><br/>
+      Выберите тип письма:
+            <select>
+                    <option value="" selected="selected">-</option>
+                    <option value="a">Входящее</option>
+                    <option value="b">Исходящее</option>
+            </select>
+    </div>
+ 
+<div id="Block5" class="box"><br/>  
+<form method="post" action="index.php">
+ 
+ 
+        Полное название организации <br/>
+        <textarea cols="40" rows="2" name="fullname"></textarea><br/>
+        Короткое название организации <br/>
+        <input type="text" name="smallname" /><br/>
+        ИНН организации <br/>
+        <input type="text" name="inn" /><br/>
+        КПП организации <br/>
+        <input type="text" name="kpp" /><br/>
+        Индекс организации <br/>
+        <input type="text" name="ind" /><br/>
+        Страна расположения организации <br/>
+        <input type="text" name="strana" /><br/>
+        Город организации <br/>
+        <input type="text" name="gorod" /><br/>
+        Адрес организации <br/>
+        <input type="text" name="adress" /><br/><br/>
+        <input type="submit" name="add" value="Добавить организацию" />
+ </form>
+</div>
+</body> 
+</html>
