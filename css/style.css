@@ -12,7 +12,7 @@ outline:none;
 margin:auto;
 padding:0px;
 width:800px;
-align:center;
+/*align:center;*/
 
 }
 
@@ -39,7 +39,7 @@ margin-right:auto;
 
 
 
-.blue-bg-left  /* заголовок, полоска цвета */
+.blue-bg-left  /* Г§Г ГЈГ®Г«Г®ГўГ®ГЄ, ГЇГ®Г«Г®Г±ГЄГ  Г¶ГўГҐГІГ  */
 {
 background-color:#330000;
 height:30px;
@@ -54,7 +54,7 @@ padding-left:10px;
 }
 
 
-.blue-bg-right  /* заголовок, полоска цвета */
+.blue-bg-right  /* Г§Г ГЈГ®Г«Г®ГўГ®ГЄ, ГЇГ®Г«Г®Г±ГЄГ  Г¶ГўГҐГІГ  */
 {
 background-color:#330000;
 height:30px;
@@ -71,7 +71,7 @@ display:block;
 width: 50%;
 }
 
-.blue-bg  /* заголовок, полоска цвета */
+.blue-bg  /* Г§Г ГЈГ®Г«Г®ГўГ®ГЄ, ГЇГ®Г«Г®Г±ГЄГ  Г¶ГўГҐГІГ  */
 {
 background-color:#330000;
 height:30px;
@@ -84,7 +84,7 @@ font-weight:bold; outline:none;
 line-height: 28px;
 padding-left:10px;
 }
-.grey-bg   /* выравнивание по центру картинок */
+.grey-bg   /* ГўГ»Г°Г ГўГ­ГЁГўГ Г­ГЁГҐ ГЇГ® Г¶ГҐГ­ГІГ°Гі ГЄГ Г°ГІГЁГ­Г®ГЄ */
 {
 background-color:#fff;
 text-align:center;
@@ -96,7 +96,7 @@ background-color:#fff;
 background-repeat:no-repeat;
 
 }
-.kitchen-bg    /*заголовки категории*/
+.kitchen-bg    /*Г§Г ГЈГ®Г«Г®ГўГЄГЁ ГЄГ ГІГҐГЈГ®Г°ГЁГЁ*/
 {
 background-color:#fff;
 background-repeat:no-repeat;
@@ -110,7 +110,7 @@ line-height: 28px;
 text-align:center;
 }
 
-.products    /*заголовки категории*/
+.products    /*Г§Г ГЈГ®Г«Г®ГўГЄГЁ ГЄГ ГІГҐГЈГ®Г°ГЁГЁ*/
 {
 background-color:#fff;
 background-repeat:no-repeat;
@@ -125,7 +125,7 @@ line-height: 28px;
 text-align:center;
 }
 
-.heading1    /*заголовки*/
+.heading1    /*Г§Г ГЈГ®Г«Г®ГўГЄГЁ*/
 {
 font-family: 'Scada', sans-serif;
 font-size:16px;
@@ -154,7 +154,7 @@ line-height: 1.5;
 }
 
 
-.link1   /*для заголовков*/
+.link1   /*Г¤Г«Гї Г§Г ГЈГ®Г«Г®ГўГЄГ®Гў*/
 {
 font-family: 'Scada', sans-serif;
 font-size:15px;
@@ -180,7 +180,7 @@ text-decoration:underline;
 }
 
 
-.link2   /*для обычного текста*/
+.link2   /*Г¤Г«Гї Г®ГЎГ»Г·Г­Г®ГЈГ® ГІГҐГЄГ±ГІГ */
 {
 font-family: 'Scada', sans-serif;
 font-size:14px;
@@ -209,7 +209,7 @@ text-decoration:underline;
 
 
 
-.link3   /*для обычного текста*/
+.link3   /*Г¤Г«Гї Г®ГЎГ»Г·Г­Г®ГЈГ® ГІГҐГЄГ±ГІГ */
 {
 font-family: 'Scada', sans-serif;
 font-size:14px;
@@ -344,7 +344,7 @@ text-align:center;
 
 
 
-/*--------------------галерея------------------------*/
+/*--------------------ГЈГ Г«ГҐГ°ГҐГї------------------------*/
 
 
 #page { width: 300px; 
@@ -403,7 +403,7 @@ margin: 5px; }
 
 
 
-/*----------------МЕНЮ-------------------*/
+/*----------------ГЊГ…ГЌГћ-------------------*/
 
 .four nav {
   width: 660px;
@@ -478,7 +478,7 @@ font-family: 'Scada', sans-serif;
 }
 
 
- /*----------------кнопка----------------------*/
+ /*----------------ГЄГ­Г®ГЇГЄГ ----------------------*/
 
 
 
