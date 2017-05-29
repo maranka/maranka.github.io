@@ -1,0 +1,17 @@
+User-agent: *
+Disallow: /form
+
+User-agent: Yandex
+Disallow: /*utm_
+Allow: /*id=
+
+User-agent: *
+Disallow: /*utm_
+Allow: /*id=
+
+User-agent: Googlebot
+Disallow: /*utm_
+
+User-agent: Yandex
+Disallow: /*utm_
+
