@@ -5,7 +5,6 @@ User-agent: Yandex
 Disallow: /*utm_
 Allow: /*id=
 
-User-agent: *
 Disallow: /*utm_
 Allow: /*id=
 
